@@ -7,4 +7,8 @@ print(wb.sheetnames)
 
 sheet = wb["Sheet1"]
 
-wb.create_sheet("Sheet2", 0)
+cell = sheet["a1"]
+print(cell.value)
+print(cell.row)
+print(cell.column)
+print(cell.coordinate)
