@@ -10,4 +10,9 @@ sheet = wb["Sheet1"]
 cell = sheet["a1"]
 column = sheet["a"]
 cells = sheet["a:c"]
+sheet["a1:c3"]
 print(cells)
+
+sheet.append([1, 2, 3])
+
+wb.save("transactions2.xlsx")
