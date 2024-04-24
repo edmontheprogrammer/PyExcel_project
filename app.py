@@ -9,4 +9,5 @@ sheet = wb["Sheet1"]
 
 cell = sheet["a1"]
 column = sheet["a"]
-print(column)
+cells = sheet["a:c"]
+print(cells)
